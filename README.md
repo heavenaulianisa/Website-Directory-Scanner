@@ -41,7 +41,7 @@ python WebsiteDirectoryScanner.py --url http://example.com --wordlist wordlist.t
 python WebsiteDirectoryScanner.py --url http://testphp.vulnweb.com --wordlist wordlist.txt --threads 15 --extensions .php,.asp,.txt,.bak
 ```
 
-### 🌐 Legal Testing Targets
+### Legal Testing Targets
 
 **Safe Sites for Testing:**
 1. **http://testphp.vulnweb.com** - Acunetix test site
@@ -52,7 +52,7 @@ python WebsiteDirectoryScanner.py --url http://testphp.vulnweb.com --wordlist wo
 
 ### Expected Results
 
-#### ✅ Successful Output Example:
+#### Successful Output Example:
 ```
 Scanning: 100%|████████████| 150/150 [00:30<00:00, 5.0it/s]
 [+] Found: http://testphp.vulnweb.com/admin (200)
@@ -62,11 +62,11 @@ Scanning: 100%|████████████| 150/150 [00:30<00:00, 5.0it
 Results saved to result.txt
 ```
 
-#### 📁 Output Files
+#### Output Files
 - **result.txt**: Contains all discovered directories/files
 - **Console output**: Real-time progress and findings
 
-## 📝 Sample Wordlists
+## Sample Wordlists
 
 ### Download Popular Wordlists
 ```
@@ -77,28 +77,7 @@ wget https://raw.githubusercontent.com/danielmiessler/SecLists/master/Discovery/
 wget https://raw.githubusercontent.com/daviddias/node-dirbuster/master/lists/directory-list-2.3-medium.txt
 ```
 
-## ⚖️ Legal & Ethical Usage
-
-### ✅ Allowed Usage:
-- Testing your own websites
-- Authorized penetration testing
-- Educational purposes with legal targets
-- Bug bounty programs (with proper scope)
-
-### ❌ Prohibited Usage:
-- Scanning websites without permission
-- Malicious activities
-- Violating terms of service
-- Overwhelming servers with requests
-
-### 🛡️ Best Practices:
-1. **Always get written permission** before scanning
-2. **Start with low thread counts** (5-10) to be respectful
-3. **Respect robots.txt** and rate limiting
-4. **Use only during authorized testing windows**
-5. **Document your testing activities**
-
-## 🔍 Understanding Results
+## Understanding Results
 
 ### HTTP Status Codes:
 - **200**: Found (accessible)
