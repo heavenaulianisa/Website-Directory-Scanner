@@ -12,7 +12,7 @@ A Python tool for scanning website directories using wordlists. This tool helps 
 - Customizable thread count
 - HTTP status code filtering
 
-## 📖 Usage
+## Usage
 
 ### Basic Command Structure
 ```
