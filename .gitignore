@@ -1,0 +1,48 @@
+# Website Directory Scanner - .gitignore
+
+# Result files
+result.txt
+results.txt
+scan_results.txt
+
+# Test files
+test_*.txt
+*_test.txt
+temp_*.txt
+
+# Log files
+*.log
+*.logs
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environment
+venv/
+env/
+.env
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig
+
+# Temporary files
+*.tmp
+*.temp
+~*
